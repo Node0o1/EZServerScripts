@@ -30,7 +30,7 @@ echo "port 22:SSH closed";
 /home/developer/assist/servstat.sh;
 
 echo "                THE APACHE2 AND MYSQL SERVICES HAVE BEEN STOPPED";
-echo "                PORT # 80:HTTP AND PORT#22 HAVE BEEN SET TO DENY";
+echo "                PORT # 80:HTTP, 443:HTTPS. AND PORT#22 HAVE BEEN SET TO DENY";
 echo "";
 echo "                   L.A.M.P.stack Has Been De-Activated !::!";
 echo "";
