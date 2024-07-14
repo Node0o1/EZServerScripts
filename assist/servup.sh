@@ -24,7 +24,7 @@ echo "port 443:HTTPS openned";
 /home/developer/assist/servstat.sh;
 
 echo "                  THE APACHE2 AND MYSQL SERVICES HAVE BEEN STARTED";
-echo "                        PORT# 80:HTTP HAS BEEN SET TO ALLOW";
+echo "                        PORT# 80:HTTP / 443:HTTPS HAS BEEN SET TO ALLOW";
 echo "";
 echo "                       L.A.M.P.stack Has Been Activated !::!";
 echo "";
