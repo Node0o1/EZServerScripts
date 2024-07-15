@@ -27,7 +27,7 @@ echo "please wait";
 ufw deny ssh;
 echo "port 22:SSH closed";
 
-/home/developer/assist/servstat.sh;
+./servstat.sh;
 
 echo "                THE APACHE2 AND MYSQL SERVICES HAVE BEEN STOPPED";
 echo "                PORT # 80:HTTP, 443:HTTPS. AND PORT#22 HAVE BEEN SET TO DENY";
