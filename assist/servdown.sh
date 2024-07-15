@@ -27,7 +27,8 @@ echo "please wait";
 ufw deny ssh;
 echo "port 22:SSH closed";
 
-./servstat.sh;
+#be sure to edit this path to point the right file path for your setup.
+~/assist/servstat.sh;
 
 echo "                THE APACHE2 AND MYSQL SERVICES HAVE BEEN STOPPED";
 echo "                PORT # 80:HTTP, 443:HTTPS. AND PORT#22 HAVE BEEN SET TO DENY";
