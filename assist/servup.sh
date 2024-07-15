@@ -24,7 +24,8 @@ echo "please wait";
 ufw allow ssh;
 echo "port 22:SSH openned\n";
 
-./servstat.sh;
+#be sure to edit this path to point the right file path for your setup.
+~/assist/servstat.sh;
 
 echo "                  THE APACHE2 AND MYSQL SERVICES HAVE BEEN STARTED";
 echo "                        PORT# 80:HTTP / 443:HTTPS / 22:SSH HAVE BEEN SET TO ALLOW";
